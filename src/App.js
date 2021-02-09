@@ -1,23 +1,37 @@
 import logo from './logo.svg';
-import './App.css';
+import './assets/styles/_app.scss';
+import { BulletList, Facebook  } from 'react-content-loader'
 
 function App() {
+  
+// const MyBulletListLoader = () => <BulletList />
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="ResponsiveComponents" className="App">
+      {/* <Facebook /> */}
+      <div className="container">
+        <div className="items">
+          Item 1
+
+        </div>
+
+        <div className="items item-2">
+          Item 2
+        </div>
+
+        <div className="items item-3">
+          Item 3
+        </div>
+
+        <div className="items">
+          Item 4
+        </div>
+        {/* Testing */}
+        <div className="items">
+          Item 5
+        </div>
+ 
+      </div>
+    
     </div>
   );
 }
