@@ -25,7 +25,7 @@ function App() {
         <div className="items">
           Item 4
         </div>
-        {/* Testing */}
+        {/* Testingg */}
         <div className="items">
           Item 5
         </div>
